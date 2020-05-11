@@ -1,0 +1,19 @@
+{{ $coding := .Site.Data.coding }}
+
+<section id="coding" class="aqua text-light">
+  <h2 class="heading">{{ $coding.title }}</h2>
+
+  <div class="row justify-content-md-around text-center">
+
+    {{ range $index, $element := $coding.languages }}
+
+    <div class="skill">
+      <div class="d-flex">
+        <div class="card p-2">{{ $element }}</div>
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+
+</section>

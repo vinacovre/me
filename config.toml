@@ -1,0 +1,4 @@
+baseURL = "http://vcovre.com/"
+languageCode = "en-us"
+title = "Vinicius Covre"
+theme = "uilite"
