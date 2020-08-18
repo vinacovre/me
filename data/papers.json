@@ -1,0 +1,21 @@
+{
+	"title" : "Papers",
+	"papers" : [
+		{
+			"icon" : "trophy",
+			"title" : "IEEE",
+			"description" : "Double Noise Filtering in CT: Pre- and Post-Reconstruction",
+			"link": "https://ieeexplore.ieee.org/document/7314579",
+			"award": {
+				"description": "Best Paper Award at SIBGRAPI 2015 international conference on Graphics, Patterns and Images",
+				"link": "https://drive.google.com/file/d/1S8v1F5fTbltOO-nj8xsJEOiwYwPPuptV/view?usp=sharing"
+			}
+		},
+		{
+			"icon" : "x-ray",
+			"title" : "WVC",
+			"description" : "Denoising Computed Tomography Projections Using Contextual Filters With Statistical Estimation from a Non-Local Approach on Anscombe Domain",
+			"link": "http://wvc2015.eesc.usp.br/Proceedings_WVC2015.pdf"
+		}
+	]
+}

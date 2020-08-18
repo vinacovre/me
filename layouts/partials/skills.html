@@ -1,0 +1,25 @@
+{{ $skills := .Site.Data.skills }}
+
+<section id="skills" class="aqua text-light">
+  <h2 class="heading">{{ $skills.title }}</h2>
+
+  <div class="row justify-content-around">
+
+    {{ range $index, $element := $skills.items }}
+
+    <div class="skill d-flex">
+      <div style="
+        padding: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        background-color: rgba(0,0,0,0.1);
+        border-radius: 3px;
+      ">
+        <span>{{ $element }}</span>
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+
+</section>

@@ -4,19 +4,23 @@
 		{
 			"timeperiod" : "Nov 2019 - Present",
 			"company" : "Grupo ZAP",
-			"website": "https://www.grupozap.com",
+			"website": "grupozap.com",
 			"description" : "Back-End Development • Functional Programming • Object-Oriented Programming (OOP) • Node.js, Python • Microservices (REST and GraphQL) • CI&CD • CircleCI, Kubernetes, Jenkins • Git / GitHub • PostgreSQL, MySQL • AWS SQS • Sentry.io • Metabase • Scrum"
 		},
 		{
 			"timeperiod" : "Jul 2018 - Oct 2018",
 			"company" : "Daitan Group",
-			"website": "https://www.daitan.com",
-			"description" : "Back-End Development • Functional Programming • Object-Oriented Programming (OOP) • Node.js, Express.js, TypeScript, Ruby on Rails, Serverless framework • Cloud Computing (AWS as Cloud Provider) • Microservices (REST APIs hosted on AWS Elastic Compute Cloud) • CI&CD • AWS CodeBuild, AWS CodePipeline, AWS CloudFormation, AWS Elastic Beanstalk, AWS Elastic Container Service • Serverless Architecture / FaaS • AWS Lambda, Serverless Framework, AWS API Gateway • Git / GitHub • PostgreSQL, DynamoDB, DocumentDB, MongoDB • AWS SQS, AWS SNS, AWS CloudWatch, AWS S3 • Scrum • Jira, Confluence • Customer communication"
+			"website": "daitan.com",
+			"description" : "Back-End Development • Functional Programming • Object-Oriented Programming (OOP) • Node.js, Express.js, TypeScript, Ruby on Rails, Serverless framework • Cloud Computing (AWS as Cloud Provider) • Microservices (REST APIs hosted on AWS Elastic Compute Cloud) • CI&CD • AWS CodeBuild, AWS CodePipeline, AWS CloudFormation, AWS Elastic Beanstalk, AWS Elastic Container Service • Serverless Architecture / FaaS • AWS Lambda, Serverless Framework, AWS API Gateway • Git / GitHub • PostgreSQL, DynamoDB, DocumentDB, MongoDB • AWS SQS, AWS SNS, AWS CloudWatch, AWS S3 • Scrum • Jira, Confluence • Customer communication",
+			"award": {
+				"description": "Certificate of Recognition ”Due to his professionalism given to CVC (project) transition. Covre successfully faced the challenge to lead the transfer of information to India teams.”",
+				"link": "https://drive.google.com/file/d/1vClwL1flNNEP367zy_yCR5eY9nj9WL8D/view?usp=sharing"
+			}
 		},
 		{
 			"timeperiod" : "Aug 2017 - Jun 2018",
 			"company" : "Daitan Group",
-			"website": "https://www.daitan.com",
+			"website": "daitan.com",
 			"description" : "• Back-End Development • Functional Programming • Git/GitHub • Node.js, Express.js, Ruby on Rails, PostgreSQL • Microservices (REST APIs) • SOLID design principles • Chatbot (for Slack) | Integrated with Trello • Serverless Architecture / FaaS • AWS Lambda, AWS CloudFormation, AWS API Gateway • Scrum • Jira"
 		}
 	]

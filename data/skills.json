@@ -1,0 +1,39 @@
+{
+	"title" : "Skills",
+	"items" : [
+		"JavaScript",
+		"TypeScript",
+		"Python",
+		"Node.js",
+
+		"OOP",
+		"Functional Programming",
+
+		"Express.js",
+		"Serverless",
+		"Joi",
+		"Sequelize",
+		"Marshmallow",
+		"SQLAlchemy",
+
+		"Microservices",
+		"FaaS / IaaS",
+
+		"Git",
+		"AWS",
+		"Kubernetes",
+		"CircleCI",
+		"Jenkins",
+
+		"PostgreSQL",
+		"MongoDB",
+
+		"Unix",
+		"Scrum",
+
+		"Mocha",
+		"Chai",
+		"Jest",
+		"Pytest"
+	]
+}

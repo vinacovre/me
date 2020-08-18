@@ -2,10 +2,10 @@
 {{ partial "sidebar.html" . }}
 
 <div class="main-content">
-	{{ if .Site.Data.coding }}{{ partial "coding.html" . }}{{ end }}
+	{{ if .Site.Data.skills }}{{ partial "skills.html" . }}{{ end }}
 	{{ if .Site.Data.experience }}{{ partial "experience.html" . }}{{ end }}
 	{{ if .Site.Data.frameworks }}{{ partial "frameworks.html" . }}{{ end }}
-	{{ if .Site.Data.services }}{{ partial "services.html" . }}{{ end }}
+	{{ if .Site.Data.papers }}{{ partial "papers.html" . }}{{ end }}
 </div>
 
 <div style="z-index: 4; position: relative;">

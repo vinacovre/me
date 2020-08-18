@@ -1,0 +1,28 @@
+{{ $papers := .Site.Data.papers }}
+
+<section class="blue">
+  <h2 class="heading">{{ $papers.title }}</h2>
+
+  <div class="row justify-content-md-center text-center">
+
+    {{ range $index, $element := $papers.papers }}
+
+    <div class="col-12 col-lg-6 col-md-6 mb-3">
+      <div class="card p-4">
+        <a href="{{ $element.link }}" target="_blank" style="color: black;">
+          <i class="mt-3  fa fa-{{ $element.icon }} fa-3x"></i>
+          <h5 class="mt-4">{{ $element.title }}</h5>
+        </a>
+        <p class="text-muted">{{ $element.description }}</p>
+
+        {{ $award := $element.award }}
+        {{ if $award }}
+        <b><a href="{{ $award.link }}" target="_blank" style="color: #804d63;"><i class="">{{ $award.description }}</i></a></b>
+        {{ end }}
+
+      </div>
+    </div>
+
+    {{ end }}
+  </div>
+</section>

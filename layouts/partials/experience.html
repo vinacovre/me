@@ -6,18 +6,43 @@
     {{ range $index, $element := $experience.experience }}
     <div class="timeline-item clearfix">
       <div class="timeline-icon"></div>
-      
+
       <div class="timeline-content {{ if eq (mod $index 2) 0 }} right {{ end }}">
         <span class="date">{{ $element.timeperiod }}</span>
+        <!-- TODO: Add link with company title -->
         <h6 class="h3 my-2">{{ $element.company }}</h6>
+
         {{ $website := $element.website }}
         {{ if $website }}
-        <a target="_blank" href="{{ $website }}">
-          <i class="fas fa-link"></i>
-          {{ $website }}
-        </a>
+        <a href="//{{ $website }}" target="_blank"><i class="fas fa-link"></i>{{ $website }}</a>
         {{ end }}
-        <p class="">{{ $element.description }}</p>
+
+        <div style="padding: 15px;">
+          <button
+            class="btn btn-outline-dark btn-sm"
+            data-toggle="collapse"
+            data-target="#collapseDetails{{$index}}">
+              Details
+          </button>
+          <div
+            class="collapse"
+            id="collapseDetails{{$index}}"
+            style="padding-top: 15px">
+              <!-- TODO: display list of items in description -->
+              <div>{{ $element.description }}</div>
+              {{ $award := $element.award }}
+              {{ if $award }}
+              <div style="padding-top: 15px">
+                <a
+                  href="{{ $award.link }}"
+                  target="_blank"
+                  style="color: #686f5d; font-weight: bold; font-style: italic;">
+                    {{ $award.description }}
+                </a>
+              </div>
+              {{ end }}
+          </div>
+        </div>
       </div>
     </div>
     {{ end }}
